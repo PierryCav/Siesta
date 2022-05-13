@@ -8,7 +8,6 @@ const SiestaClient = require('./Structures/SiestaClient');
 const client = new SiestaClient();
 client.start();
 
-AutoPoster(global.config.connections.topgg, client);
 
 // Handling some errors
 const callback = (error) => {
